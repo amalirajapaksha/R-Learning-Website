@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Matrices in R – Learning Python</title>
+<title>Introduction to python – Learning Python</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -129,24 +129,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./vectors.html"> 
+    <a class="nav-link active" href="./Introduction to python.html" aria-current="page"> 
 <span class="menu-text">Introduction to python</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./matrices.html" aria-current="page"> 
+    <a class="nav-link" href="./Ipython and Jupyter.html"> 
 <span class="menu-text">Ipython and Jupyter</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./dataframes.html"> 
+    <a class="nav-link" href="./Numpy.html"> 
 <span class="menu-text">Numpy</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./algebra.html"> 
+    <a class="nav-link" href="./Pandas.html"> 
 <span class="menu-text">Pandas</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./functions.html"> 
+    <a class="nav-link" href="./Matplotlifb.html"> 
 <span class="menu-text">Matplotlifb</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Statsmodels.html"> 
+<span class="menu-text">Statsmodels</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
@@ -168,8 +172,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#creating-a-matrix" id="toc-creating-a-matrix" class="nav-link active" data-scroll-target="#creating-a-matrix">Creating a Matrix</a></li>
-  <li><a href="#matrix-multiplication" id="toc-matrix-multiplication" class="nav-link" data-scroll-target="#matrix-multiplication">Matrix Multiplication</a></li>
+  <li><a href="#creating-vectors" id="toc-creating-vectors" class="nav-link active" data-scroll-target="#creating-vectors">Creating Vectors</a></li>
+  <li><a href="#vector-arithmetic" id="toc-vector-arithmetic" class="nav-link" data-scroll-target="#vector-arithmetic">Vector Arithmetic</a></li>
   </ul>
 </nav>
     </div>
@@ -178,7 +182,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Matrices in R</h1>
+<h1 class="title">Introduction to python</h1>
 </div>
 
 
@@ -195,28 +199,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="creating-a-matrix" class="level1">
-<h1>Creating a Matrix</h1>
+<section id="creating-vectors" class="level1">
+<h1>Creating Vectors</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>A <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">9</span>,<span class="at">nrow=</span><span class="dv">3</span>)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>A</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>     [,1] [,2] [,3]
-[1,]    1    4    7
-[2,]    2    5    8
-[3,]    3    6    9</code></pre>
+<pre><code>[1] 1 2 3 4</code></pre>
 </div>
 </div>
 </section>
-<section id="matrix-multiplication" class="level1">
-<h1>Matrix Multiplication</h1>
+<section id="vector-arithmetic" class="level1">
+<h1>Vector Arithmetic</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>A <span class="sc">%*%</span> <span class="fu">t</span>(A)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">+</span> <span class="dv">10</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>     [,1] [,2] [,3]
-[1,]   66   78   90
-[2,]   78   93  108
-[3,]   90  108  126</code></pre>
+<pre><code>[1] 11 12 13 14</code></pre>
 </div>
 </div>
 
