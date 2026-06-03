@@ -1,0 +1,13 @@
+---
+title: "Functions in R"
+---
+
+# User Defined Functions
+
+```{r}
+square <- function(x){
+  x^2
+}
+
+square(5)
+```

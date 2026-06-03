@@ -1,0 +1,16 @@
+---
+title: "Vectors in R"
+---
+
+# Creating Vectors
+
+```{r}
+x <- c(1,2,3,4)
+x
+```
+
+# Vector Arithmetic
+
+```{r}
+x + 10
+```

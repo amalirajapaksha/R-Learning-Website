@@ -1,0 +1,14 @@
+---
+title: "Data Frames in R"
+---
+
+# Creating Data Frames
+
+```{r}
+students <- data.frame(
+  Name=c("A","B","C"),
+  Marks=c(80,70,90)
+)
+
+students
+```

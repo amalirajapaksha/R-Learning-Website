@@ -1,0 +1,13 @@
+---
+title: "Algebraic Operations"
+---
+
+# Basic Arithmetic
+
+```{r}
+5+2
+5-2
+5*2
+5/2
+5^2
+```

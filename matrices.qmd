@@ -1,0 +1,16 @@
+---
+title: "Matrices in R"
+---
+
+# Creating a Matrix
+
+```{r}
+A <- matrix(1:9,nrow=3)
+A
+```
+
+# Matrix Multiplication
+
+```{r}
+A %*% t(A)
+```

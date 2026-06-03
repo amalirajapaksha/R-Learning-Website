@@ -1,11 +1,15 @@
 ---
-title: "R-Learning-Website"
+title: "Learning R"
 ---
 
-This is a Quarto website.
+# Welcome
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This website contains course materials for learning R.
 
-```{r}
-1 + 1
-```
+## Topics
+
+1. Vectors
+2. Matrices
+3. Data Frames
+4. Algebraic Operations
+5. Functions
