@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: /docs
+  output-dir: docs
 
 website:
   title: "Learning Python"
@@ -23,9 +23,6 @@ website:
 
       - href: functions.qmd
         text: Matplotlifb
-        
-      - href: dataframes.qmd
-        text: Statsmodels  
       - about.qmd
 
 format:

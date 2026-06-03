@@ -9,16 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Learning R",
+    "title": "Learning Python",
     "section": "",
-    "text": "This website contains course materials for learning R.\n\n\n\nVectors\nMatrices\nData Frames\nAlgebraic Operations\nFunctions"
-  },
-  {
-    "objectID": "index.html#topics",
-    "href": "index.html#topics",
-    "title": "Learning R",
-    "section": "",
-    "text": "Vectors\nMatrices\nData Frames\nAlgebraic Operations\nFunctions"
+    "text": "This website contains course materials for learning Python."
   },
   {
     "objectID": "dataframes.html",
