@@ -1,12 +1,28 @@
 project:
   type: website
+  output-dir: _site/
 
 website:
-  title: "R-Learning-Website"
+  title: "Learning R"
   navbar:
     left:
       - href: index.qmd
         text: Home
+
+      - href: vectors.qmd
+        text: Vectors
+
+      - href: matrices.qmd
+        text: Matrices
+
+      - href: dataframes.qmd
+        text: Data Frames
+
+      - href: algebra.qmd
+        text: Algebra
+
+      - href: functions.qmd
+        text: Functions
       - about.qmd
 
 format:
@@ -17,5 +33,5 @@ format:
     css: styles.css
     toc: true
 
-editor: visual
+editor: source
 
