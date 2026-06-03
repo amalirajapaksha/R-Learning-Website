@@ -10,19 +10,22 @@ website:
         text: Home
 
       - href: vectors.qmd
-        text: Vectors
+        text: Introduction to python
 
       - href: matrices.qmd
-        text: Matrices
+        text: Ipython and Jupyter
 
       - href: dataframes.qmd
-        text: Data Frames
+        text: Numpy
 
       - href: algebra.qmd
-        text: Algebra
+        text: Pandas
 
       - href: functions.qmd
-        text: Functions
+        text: Matplotlifb
+        
+      - href: dataframes.qmd
+        text: Statsmodels  
       - about.qmd
 
 format:
