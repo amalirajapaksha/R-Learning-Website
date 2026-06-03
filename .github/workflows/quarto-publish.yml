@@ -39,6 +39,9 @@ jobs:
       - name: Set up TinyTeX
         uses: r-lib/actions/setup-tinytex@v2
 
+      - name: Render site
+        run: quarto render
+
       - name: Render and Publish
         uses: peaceiris/actions-gh-pages@v3
         with:
