@@ -1,15 +1,9 @@
 ---
-title: "Learning R"
+title: "Learning Python"
 ---
 
 # Welcome
 
-This website contains course materials for learning R.
+This website contains course materials for learning Python.
 
-## Topics
-
-1. Vectors
-2. Matrices
-3. Data Frames
-4. Algebraic Operations
-5. Functions
+## Course Outline
