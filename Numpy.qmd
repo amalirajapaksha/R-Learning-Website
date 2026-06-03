@@ -1,5 +1,5 @@
 ---
-title: "Data Frames in R"
+title: "Numpy"
 ---
 
 # Creating Data Frames

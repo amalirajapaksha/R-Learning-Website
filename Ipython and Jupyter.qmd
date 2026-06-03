@@ -1,5 +1,5 @@
 ---
-title: "Matrices in R"
+title: "Ipython and Jupyter"
 ---
 
 # Creating a Matrix
