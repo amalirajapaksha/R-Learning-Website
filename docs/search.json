@@ -9,9 +9,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Learning Python",
+    "title": "Learn Python for Data Science",
     "section": "",
-    "text": "This website contains course materials for learning Python."
+    "text": "Welcome to the Python Learning Website.\nExplore tutorials on:\n\nPython Fundamentals\nIPython & Jupyter\nNumPy\nPandas\nMatplotlib\nStatsmodels\n\n\n\n\n\n\n\nTip\n\n\n\nWork through the topics in order for the best learning experience."
   },
   {
     "objectID": "about.html",
@@ -28,8 +28,8 @@
     "text": "Creating Vectors\n\nx &lt;- c(1,2,3,4)\nx\n\n[1] 1 2 3 4\n\n\n\n\nVector Arithmetic\n\nx + 10\n\n[1] 11 12 13 14"
   },
   {
-    "objectID": "Matplotlifb.html",
-    "href": "Matplotlifb.html",
+    "objectID": "Matplotlib.html",
+    "href": "Matplotlib.html",
     "title": "Matplotlifb",
     "section": "",
     "text": "User Defined Functions\n\nsquare &lt;- function(x){\n  x^2\n}\n\nsquare(5)\n\n[1] 25"
