@@ -1,9 +1,18 @@
 ---
-title: "Learning Python"
+title: "Learn Python for Data Science"
 ---
 
-# Welcome
+Welcome to the Python Learning Website.
 
-This website contains course materials for learning Python.
+Explore tutorials on:
 
-## Course Outline
+- Python Fundamentals
+- IPython & Jupyter
+- NumPy
+- Pandas
+- Matplotlib
+- Statsmodels
+
+::: {.callout-tip}
+Work through the topics in order for the best learning experience.
+:::

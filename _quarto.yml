@@ -21,8 +21,8 @@ website:
       - href: Pandas.qmd
         text: Pandas
 
-      - href: Matplotlifb.qmd
-        text: Matplotlifb
+      - href: Matplotlib.qmd
+        text: Matplotlib
         
       - href: Statsmodels.qmd
         text: Statsmodels  
@@ -30,7 +30,7 @@ website:
 
 format:
   html:
-    theme: minty
+    theme: flatly
     css: styles.css
     toc: true
 
