@@ -14,6 +14,20 @@
     "text": "This website is a structured learning resource for R programming and statistics.\nIt includes step-by-step modules covering: - Data manipulation - Visualization - Statistical modeling - Reproducible reporting using Quarto\n\n\n\n\n\n\nNoteNote\n\n\n\nThis website is an illustrative example used to demonstrate the process of building a Quarto website. It is intended for learning purposes only. You can customize its structure, content, layout, and design to suit your own project or personal website."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Each topic is organized as a separate module. Users are encouraged to follow the modules in order for better understanding, starting from the basics and progressing toward advanced topics."
+  },
+  {
+    "objectID": "about.html#how-to-use-this-website",
+    "href": "about.html#how-to-use-this-website",
+    "title": "About",
+    "section": "",
+    "text": "Each topic is organized as a separate module. Users are encouraged to follow the modules in order for better understanding, starting from the basics and progressing toward advanced topics."
+  },
+  {
     "objectID": "Intrduction to R and RStudio.html",
     "href": "Intrduction to R and RStudio.html",
     "title": "Introduction to R and RStudio",
@@ -40,19 +54,5 @@
     "title": "Introduction to R and RStudio",
     "section": "Example",
     "text": "Example\n# Assign values to variables\nx &lt;- 10\ny &lt;- 20\n\n# Perform a simple calculation\nsum &lt;- x + y\n\n# Display the result\nprint(sum)"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Each topic is organized as a separate module. Users are encouraged to follow the modules in order for better understanding, starting from the basics and progressing toward advanced topics."
-  },
-  {
-    "objectID": "about.html#how-to-use-this-website",
-    "href": "about.html#how-to-use-this-website",
-    "title": "About",
-    "section": "",
-    "text": "Each topic is organized as a separate module. Users are encouraged to follow the modules in order for better understanding, starting from the basics and progressing toward advanced topics."
   }
 ]
