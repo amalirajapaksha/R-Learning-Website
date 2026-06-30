@@ -1,44 +1,44 @@
 [
   {
-    "objectID": "Ipython and Jupyter.html",
-    "href": "Ipython and Jupyter.html",
-    "title": "Ipython and Jupyter",
-    "section": "",
-    "text": "Creating a Matrix\n\nA &lt;- matrix(1:9,nrow=3)\nA\n\n     [,1] [,2] [,3]\n[1,]    1    4    7\n[2,]    2    5    8\n[3,]    3    6    9\n\n\n\n\nMatrix Multiplication\n\nA %*% t(A)\n\n     [,1] [,2] [,3]\n[1,]   66   78   90\n[2,]   78   93  108\n[3,]   90  108  126"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Learn Python for Data Science",
+    "title": "R Learning Website",
     "section": "",
-    "text": "Welcome to the Python Learning Website.\nExplore tutorials on:\n\nPython Fundamentals\nIPython & Jupyter\nNumPy\nPandas\nMatplotlib\nStatsmodels\n\n\n\n\n\n\n\nTip\n\n\n\nWork through the topics in order for the best learning experience."
+    "text": "This website is a structured learning resource for R programming and statistics.\nIt includes step-by-step modules covering: - Data manipulation - Visualization - Statistical modeling - Reproducible reporting using Quarto\n\n\n\n\n\n\nNoteNote\n\n\n\nThis website is an illustrative example used to demonstrate the process of building a Quarto website. It is intended for learning purposes only. You can customize its structure, content, layout, and design to suit your own project or personal website."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "R Learning Website",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "This website is a structured learning resource for R programming and statistics.\nIt includes step-by-step modules covering: - Data manipulation - Visualization - Statistical modeling - Reproducible reporting using Quarto\n\n\n\n\n\n\nNoteNote\n\n\n\nThis website is an illustrative example used to demonstrate the process of building a Quarto website. It is intended for learning purposes only. You can customize its structure, content, layout, and design to suit your own project or personal website."
   },
   {
-    "objectID": "Introduction to python.html",
-    "href": "Introduction to python.html",
-    "title": "Introduction to python",
+    "objectID": "Intrduction to R and RStudio.html",
+    "href": "Intrduction to R and RStudio.html",
+    "title": "Introduction to R and RStudio",
     "section": "",
-    "text": "Creating Vectors\n\nx &lt;- c(1,2,3,4)\nx\n\n[1] 1 2 3 4\n\n\n\n\nVector Arithmetic\n\nx + 10\n\n[1] 11 12 13 14"
+    "text": "R is a powerful programming language designed for statistical computing, data analysis, and data visualization. RStudio is an integrated development environment (IDE) that provides a user-friendly interface for writing, running, and managing R code."
   },
   {
-    "objectID": "Matplotlib.html",
-    "href": "Matplotlib.html",
-    "title": "Matplotlifb",
+    "objectID": "Intrduction to R and RStudio.html#introduction",
+    "href": "Intrduction to R and RStudio.html#introduction",
+    "title": "Introduction to R and RStudio",
     "section": "",
-    "text": "User Defined Functions\n\nsquare &lt;- function(x){\n  x^2\n}\n\nsquare(5)\n\n[1] 25"
+    "text": "R is a powerful programming language designed for statistical computing, data analysis, and data visualization. RStudio is an integrated development environment (IDE) that provides a user-friendly interface for writing, running, and managing R code."
   },
   {
-    "objectID": "Pandas.html",
-    "href": "Pandas.html",
-    "title": "Pandas",
-    "section": "",
-    "text": "Basic Arithmetic\n\n5+2\n\n[1] 7\n\n5-2\n\n[1] 3\n\n5*2\n\n[1] 10\n\n5/2\n\n[1] 2.5\n\n5^2\n\n[1] 25"
+    "objectID": "Intrduction to R and RStudio.html#topics-covered",
+    "href": "Intrduction to R and RStudio.html#topics-covered",
+    "title": "Introduction to R and RStudio",
+    "section": "Topics Covered",
+    "text": "Topics Covered\n\nWhat is R?\nWhat is RStudio?\nInstalling R and RStudio\nUnderstanding the RStudio interface\nRunning your first R commands"
+  },
+  {
+    "objectID": "Intrduction to R and RStudio.html#example",
+    "href": "Intrduction to R and RStudio.html#example",
+    "title": "Introduction to R and RStudio",
+    "section": "Example",
+    "text": "Example\n# Assign values to variables\nx &lt;- 10\ny &lt;- 20\n\n# Perform a simple calculation\nsum &lt;- x + y\n\n# Display the result\nprint(sum)"
   }
 ]

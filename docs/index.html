@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learn Python for Data Science – Learning Python</title>
+<title>R Learning Website</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -36,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Learning Python</span>
+    <span class="navbar-title">R Learning Website</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -93,30 +96,45 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Introduction to python.html"> 
-<span class="menu-text">Introduction to python</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-learning-modules" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Learning Modules</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-learning-modules">    
+        <li>
+    <a class="dropdown-item" href="./Intrduction to R and RStudio.html">
+ <span class="dropdown-text">Introduction to R and RStudio</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Ipython and Jupyter.html"> 
-<span class="menu-text">Ipython and Jupyter</span></a>
+        <li>
+    <a class="dropdown-item" href="./Data Types and Data Structures.html">
+ <span class="dropdown-text">Data Types and Data Structures</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Numpy.html"> 
-<span class="menu-text">Numpy</span></a>
+        <li>
+    <a class="dropdown-item" href="./Data Import and Export.html">
+ <span class="dropdown-text">Data Import and Export</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Pandas.html"> 
-<span class="menu-text">Pandas</span></a>
+        <li>
+    <a class="dropdown-item" href="./Reshaping Data with tidyr.html">
+ <span class="dropdown-text">Reshaping Data with tidyr</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Matplotlib.html"> 
-<span class="menu-text">Matplotlib</span></a>
+        <li>
+    <a class="dropdown-item" href="./Data Manipulation with dplyr.html">
+ <span class="dropdown-text">Data Manipulation with dplyr</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Statsmodels.html"> 
-<span class="menu-text">Statsmodels</span></a>
+        <li>
+    <a class="dropdown-item" href="./Data Visualization with ggplot2.html">
+ <span class="dropdown-text">Data Visualization with ggplot2</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./Statistical Modeling in R.html">
+ <span class="dropdown-text">Statistical Modeling in R</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Reproducible Reporting with Quarto.html">
+ <span class="dropdown-text">Reproducible Reporting with Quarto</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
@@ -132,15 +150,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome 👋</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Learn Python for Data Science</h1>
+<h1 class="title">R Learning Website</h1>
 </div>
 
 
@@ -157,31 +181,26 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to the Python Learning Website.</p>
-<p>Explore tutorials on:</p>
-<ul>
-<li>Python Fundamentals</li>
-<li>IPython &amp; Jupyter</li>
-<li>NumPy</li>
-<li>Pandas</li>
-<li>Matplotlib</li>
-<li>Statsmodels</li>
-</ul>
-<div class="callout callout-style-default callout-tip callout-titled">
+<section id="welcome" class="level2">
+<h2 class="anchored" data-anchor-id="welcome">Welcome 👋</h2>
+<p>This website is a structured learning resource for <strong>R programming and statistics</strong>.</p>
+<p>It includes step-by-step modules covering: - Data manipulation - Visualization - Statistical modeling - Reproducible reporting using Quarto</p>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Tip
+<span class="screen-reader-only">Note</span>Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Work through the topics in order for the best learning experience.</p>
+<p>This website is <strong>an illustrative example</strong> used to demonstrate the process of building a Quarto website. It is intended for learning purposes only. You can customize its structure, content, layout, and design to suit your own project or personal website.</p>
 </div>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -235,13 +254,14 @@ Tip
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
