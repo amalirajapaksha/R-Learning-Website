@@ -1,16 +1,29 @@
 ---
-title: "Introduction to python"
+title: "Introduction to R and RStudio"
 ---
 
-# Creating Vectors
+## Introduction
 
-```{r}
-x <- c(1,2,3,4)
-x
-```
+R is a powerful programming language designed for statistical computing, data analysis, and data visualization. RStudio is an integrated development environment (IDE) that provides a user-friendly interface for writing, running, and managing R code.
 
-# Vector Arithmetic
+## Topics Covered
 
-```{r}
-x + 10
+- What is R?
+- What is RStudio?
+- Installing R and RStudio
+- Understanding the RStudio interface
+- Running your first R commands
+
+## Example
+
+```r
+# Assign values to variables
+x <- 10
+y <- 20
+
+# Perform a simple calculation
+sum <- x + y
+
+# Display the result
+print(sum)
 ```

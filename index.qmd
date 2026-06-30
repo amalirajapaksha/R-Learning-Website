@@ -1,18 +1,15 @@
 ---
-title: "Learn Python for Data Science"
+title: "R Learning Website"
 ---
 
-Welcome to the Python Learning Website.
+## Welcome 👋
 
-Explore tutorials on:
+This website is a structured learning resource for **R programming and statistics**.
 
-- Python Fundamentals
-- IPython & Jupyter
-- NumPy
-- Pandas
-- Matplotlib
-- Statsmodels
+It includes step-by-step modules covering: - Data manipulation - Visualization - Statistical modeling - Reproducible reporting using Quarto
 
-::: {.callout-tip}
-Work through the topics in order for the best learning experience.
+::: {.callout-note}
+## Note
+
+This website is **an illustrative example** used to demonstrate the process of building a Quarto website. It is intended for learning purposes only. You can customize its structure, content, layout, and design to suit your own project or personal website.
 :::

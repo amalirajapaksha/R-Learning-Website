@@ -1,4 +1,4 @@
 ---
-title: "Untitled"
+title: "Statistical Modeling in R"
 ---
 

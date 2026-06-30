@@ -1,13 +1,4 @@
 ---
-title: "Matplotlifb"
+title: "Functions"
 ---
 
-# User Defined Functions
-
-```{r}
-square <- function(x){
-  x^2
-}
-
-square(5)
-```

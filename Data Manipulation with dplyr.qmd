@@ -1,4 +1,4 @@
 ---
-title: "Statsmodels"
+title: "Data Manipulation with dplyr"
 ---
 

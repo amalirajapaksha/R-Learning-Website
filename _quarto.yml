@@ -1,38 +1,48 @@
+
 project:
   type: website
   output-dir: docs
 
 website:
-  title: "Learning Python"
+  title: "R Learning Website"
+
   navbar:
     left:
       - href: index.qmd
         text: Home
 
-      - href: Introduction to python.qmd
-        text: Introduction to python
+      - text: Learning Modules
+        menu:
+          - href: "Intrduction to R and RStudio.qmd"
+            text: Introduction to R and RStudio
 
-      - href: Ipython and Jupyter.qmd
-        text: Ipython and Jupyter
+          - href: "Data Types and Data Structures.qmd"
+            text: Data Types and Data Structures
 
-      - href: Numpy.qmd
-        text: Numpy
+          - href: "Data Import and Export.qmd"
+            text: Data Import and Export
 
-      - href: Pandas.qmd
-        text: Pandas
+          - href: "Reshaping Data with tidyr.qmd"
+            text: Reshaping Data with tidyr
 
-      - href: Matplotlib.qmd
-        text: Matplotlib
-        
-      - href: Statsmodels.qmd
-        text: Statsmodels  
-      - about.qmd
+          - href: "Data Manipulation with dplyr.qmd"
+            text: Data Manipulation with dplyr
+
+          - href: "Data Visualization with ggplot2.qmd"
+            text: Data Visualization with ggplot2
+
+          - href: "Statistical Modeling in R.qmd"
+            text: Statistical Modeling in R
+
+          - href: "Reproducible Reporting with Quarto.qmd"
+            text: Reproducible Reporting with Quarto
+            
+      - href: about.qmd
+        text: About      
 
 format:
   html:
-    theme: flatly
+    theme: cosmo
     css: styles.css
     toc: true
-
-editor: source
-
+    

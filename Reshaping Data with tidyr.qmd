@@ -1,13 +1,5 @@
 ---
-title: "Pandas"
+title: "Reshaping Data with tidyr"
 ---
 
-# Basic Arithmetic
 
-```{r}
-5+2
-5-2
-5*2
-5/2
-5^2
-```
