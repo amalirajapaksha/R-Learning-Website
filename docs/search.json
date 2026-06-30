@@ -40,5 +40,19 @@
     "title": "Introduction to R and RStudio",
     "section": "Example",
     "text": "Example\n# Assign values to variables\nx &lt;- 10\ny &lt;- 20\n\n# Perform a simple calculation\nsum &lt;- x + y\n\n# Display the result\nprint(sum)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Each topic is organized as a separate module. Users are encouraged to follow the modules in order for better understanding, starting from the basics and progressing toward advanced topics."
+  },
+  {
+    "objectID": "about.html#how-to-use-this-website",
+    "href": "about.html#how-to-use-this-website",
+    "title": "About",
+    "section": "",
+    "text": "Each topic is organized as a separate module. Users are encouraged to follow the modules in order for better understanding, starting from the basics and progressing toward advanced topics."
   }
 ]
